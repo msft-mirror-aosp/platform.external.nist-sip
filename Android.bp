@@ -57,4 +57,7 @@ java_library_static {
             "-Xep:MissingOverride:OFF",  // Ignore missing @Override.
         ],
     },
+    lint: {
+        warning_checks: ["SuspiciousIndentation"],
+    },
 }
